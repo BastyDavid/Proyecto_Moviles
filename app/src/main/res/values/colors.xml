@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">	#C0C0C0</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="high_priority_color">#f40303</color>
+    <color name="medium_priority_color">#1703f4</color>
+    <color name="actionBarColor">#ed0808</color>
+
+    <color name="tabsScrollColor">#00CC66</color>
+</resources>

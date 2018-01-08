@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Proyecto Moviles </string>
+    <string name="app_showname">Proyecto Moviles</string>
+    <string name="edit_message">Escribe mensaje</string>
+    <string name="newTask">Nueva Tarea</string>
+    <string name="taskPlaceholder">Nombre Tarea></string>
+    <string name="taskContentPlaceholder">Contenido Tarea</string>
+    <string name="delete"><font size="18">Borrar</font> </string>
+    <string name="back"><font size="17">Regresar</font></string>
+    <string name="finish"><font size="18">Terminar</font></string>
+    <string name="priority">Prioridad</string>
+    <string name="deadline">Deadline</string>
+    <string name="titleHint"><font size="26">agregar Titulo</font></string>
+    <string name="contentHint"><font size="20">Nueva Tarea</font></string>
+    <string name="priority0">Sin Prisa</string>
+    <string name="priority1">Con algo de Prisa</string>
+    <string name="priority2">Hay Que hacerlo Rapido</string>
+    <string name="create">Crear</string>
+    <string name="return1">Regresar</string>
+    <string name="title">Titulo</string>
+    <string name="content">Contenido</string>
+    <string name="finishDate">Fecha</string>.
+    <string name="help">Ayuda</string>
+    <string name="prioritySpinner">Seleccionar Prioridad</string>
+    <string name="Compartir"><font size="18">Compartir :)</font></string>
+    <string name="Busqueda">Buscar </string>
+    <string name="share">Compartir :3</string>
+    <string name="acerda_de">Acerda De…</string>
+
+    <string-array
+        name="spinner_list_item_array">
+        <item
+            >PrioridadBaja</item>
+        <item
+            >PrioridadMedia </item>
+        <item
+            >ProridadAlta :S</item>
+    </string-array>
+
+
+</resources>

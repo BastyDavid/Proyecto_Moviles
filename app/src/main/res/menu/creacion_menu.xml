@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/spinner"
+        android:title="Prioridad"
+        app:actionViewClass="android.widget.Spinner"
+        android:theme="@style/ActionBarTheme"
+        android:background="#A9A9A9"
+        android:popupBackground="#A9A9A9"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/finishCreation"
+        android:title="Crear :)"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- copia de seguridad automatica -->
+    <exclude
+        domain="database"
+        path="TASKS_DB6" />
+
+</full-backup-content>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp">
+
+
+    <ImageView
+        android:id="@+id/priorityImage"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:filterTouchesWhenObscured="false"
+        app:srcCompat="@drawable/con_mucha_prisa"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/taskContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskTitle"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/priorityImage"
+        android:layout_toRightOf="@+id/priorityImage"
+        android:ellipsize="end"
+        android:maxLength="12"
+        android:maxLines="1"
+        android:text="Contenido"
+        android:textColor="@color/medium_priority_color"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/seperator"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/priorityImage"
+        android:background="@drawable/linea_separadora"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/linea_separadora"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/finishDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/taskTitle"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/taskContent"
+        android:layout_toRightOf="@+id/taskContent"
+        android:ellipsize="marquee"
+        android:gravity="end"
+        android:maxLines="1"
+        android:text="Fecha Final"
+        android:textColor="@color/medium_priority_color"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/priorityImage"
+        android:layout_toRightOf="@+id/priorityImage"
+        android:maxLines="1"
+        android:text="Nombre Tarea :)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/high_priority_color"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
